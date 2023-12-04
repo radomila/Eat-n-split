@@ -80,6 +80,7 @@ function App() {
           selectedFriend={selectedFriend}
           onHandleSelectedFriend={handleSelectedFriend}
           onHandleChangeBill={handleChangeBill}
+          key={selectedFriend.id}
         />
       )}
     </div>
